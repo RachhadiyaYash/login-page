@@ -66,6 +66,7 @@ export default function Login() {
             >
               Register now
             </Link>
+            <Link></Link>
           </p>
           <form
             onSubmit={formik.handleSubmit}

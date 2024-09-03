@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Poppins:300,400,600,900&display=swap');
+
+p,
+input::placeholder,
+select,
+input,
+button,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+::placeholder,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
